@@ -1,0 +1,26 @@
+## Suspicious Port Activity Investigation
+
+## Source IP
+-192.168.8.186
+  Device is an internal device on a private network because of the address block
+
+## Destination IP
+-185.231.212.5
+  IP address belongs to a business in Germany according to whatismyipaddress.com
+  and ipdata.co.
+
+## Port and Protocol
+-Protocol: TCP
+-Port: 4444
+  The port is dynamic so it could be a metasploit default listener port or an I2P HTTP/S proxy. It
+  is a part of a list of registered ports assigned by IANA (Internet Assigned Numbers
+  Authority). The port can be used for evading detection to mimic legitimate network
+  traffic or to hide malicious connnections.
+
+## Analysis
+This could be a very severe incident and must be escalated. The IP address is unknown and could come
+from an unsafe source. The port can be used as a backdoor to the network.
+
+## Verdict and Recommendations
+The device needs to be isolated from the rest of the network to avoid access to any
+sensitive on the network. The issue needs to be escalated for further actions.
