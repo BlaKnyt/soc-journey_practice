@@ -1,0 +1,22 @@
+# Outbound Traffic Analysis Practice
+## Source IP
+-192.168.8.186
+  Private IP: address falls in the block of address classified for private use and
+  it is the address for an internal device.
+
+## Destination IP
+-142.250.72.14
+  Public IP: address falls in the block of addresses classified for public use. Confirmation
+  from ipinfo.io and whatismyipaddress.com shows it is public as it is the IP for Google.
+
+## Port & Protocol
+-Protocol: TCP (Transmission Control Protocol)
+-Port: 443 - HTTPS (Hypertext Transfer Protocol Secure); Port is used for safe communication
+  over the internet through encryption
+
+## Analysis
+-The connection was most likely initiated by the host. The connection is to a trusted public
+ site which wa confirmed by the above mentioned websites.
+
+## Verdict
+-Traffic is safe and to a trusted source, therefore no further action is needed.
